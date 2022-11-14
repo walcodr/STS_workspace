@@ -1,0 +1,15 @@
+package com.udemycourse.springdemo;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class HappyFortuneService implements FortuneService {
+
+	@Override
+	public String getFortune() {
+		
+		// simple implementation
+		return "Today is your lucky day!";
+	}
+
+}
