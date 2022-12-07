@@ -11,6 +11,12 @@ public class Student {
 	
 	private LinkedHashMap<String, String> countryOptions;
 	
+	private String favoriteLanguage;
+	
+	private LinkedHashMap<String, String> favoriteLanguageOptions;
+	
+	private String[] operatingSystems;
+
 	public Student() {
 		
 		// populate country options: used ISO country code
@@ -23,6 +29,13 @@ public class Student {
 		countryOptions.put("ES", "El Salvador");
 		countryOptions.put("PR", "Puerto Rico");
 		countryOptions.put("PH", "Philipinnes");
+		
+		favoriteLanguageOptions = new LinkedHashMap<String, String>();
+		
+		favoriteLanguageOptions.put("Java", "Java");
+		favoriteLanguageOptions.put("C#", "C#");
+		favoriteLanguageOptions.put("PHP", "PHP");
+		favoriteLanguageOptions.put("Ruby", "Ruby");
 		
 	}
 
@@ -53,6 +66,28 @@ public class Student {
 	public LinkedHashMap<String, String> getCountryOptions() {
 		return countryOptions;
 	}
+
+	
+	public String getFavoriteLanguage() {
+		return favoriteLanguage;
+	}
 	
 	
+	public void setFavoriteLanguage(String favoriteLanguage) {
+		this.favoriteLanguage = favoriteLanguage;
+	}
+	
+	
+		public LinkedHashMap<String, String>
+	getFavoriteLanguageOptions() {
+			return favoriteLanguageOptions;
+		}
+	
+	public String[] getOperatingSystems() {
+		return operatingSystems;
+	}
+
+	public void setOperatingSystems(String[] operatingSystems) {
+		this.operatingSystems = operatingSystems;
+	}
 }

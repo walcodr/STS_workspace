@@ -1,7 +1,0 @@
-127.0.0.1 - - [12/Nov/2022:22:41:00 -0500] "GET / HTTP/1.1" 404 751
-0:0:0:0:0:0:0:1 - - [12/Nov/2022:22:41:00 -0500] "GET /spring-mvc-demo/ HTTP/1.1" 500 17291
-127.0.0.1 - - [12/Nov/2022:22:48:57 -0500] "GET / HTTP/1.1" 404 751
-0:0:0:0:0:0:0:1 - - [12/Nov/2022:22:48:58 -0500] "GET /spring-mvc-demo/ HTTP/1.1" 200 151
-0:0:0:0:0:0:0:1 - - [12/Nov/2022:22:49:02 -0500] "GET /spring-mvc-demo/showForm HTTP/1.1" 200 280
-0:0:0:0:0:0:0:1 - - [12/Nov/2022:22:49:12 -0500] "GET /spring-mvc-demo/processFormVersionTwo?studentName=Big+Poppa HTTP/1.1" 200 144
-0:0:0:0:0:0:0:1 - - [12/Nov/2022:22:50:04 -0500] "GET /spring-mvc-demo/processFormVersionTwo?studentName=Big+Poppa HTTP/1.1" 200 145
