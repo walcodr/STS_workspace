@@ -1,2 +1,4 @@
 #Tomcat publish data
-#Mon Feb 20 17:47:10 EST 2023
+#Wed Mar 08 11:30:40 EST 2023
+org.eclipse.jst.jee.server\:/binary\:/Users/walteralfaro/.m2/repository/org/springframework/spring-web/6.0.5/spring-web-6.0.5.jar=WEB-INF/lib/spring-web-6.0.5.jar
+org.eclipse.jst.jee.server\:/binary\:/Users/walteralfaro/.m2/repository/org/springframework/spring-web/5.3.22/spring-web-5.3.22.jar=WEB-INF/lib/spring-web-5.3.22.jar
